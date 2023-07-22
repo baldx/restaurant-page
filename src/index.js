@@ -1,1 +1,2 @@
-console.log("shit")
+const menu = document.querySelector("#menu")
+

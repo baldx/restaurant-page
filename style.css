@@ -12,10 +12,12 @@
 body {
     margin: 0px;
     font-size: 26px;
+    background-color: var(--lighter-color);
 }
 
 .header {
-    background-color: rgb(247, 104, 104);
+    background-color: var(--light-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -35,11 +37,24 @@ a {
     text-decoration: none;
 }
 
-li {
-    border: 1px solid black;
+.header button {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    font-size: 0.9em;
     margin: 0.3em;
-    padding: 0.3em;
+    padding: 0.4em;
     text-align: center;
+}
+
+button:hover {
+    background-color: var(--peach);
+    transition: 300ms;
+}
+
+button:active {
+    background-color: var(--lighter-color);
+    transition: 100ms;
 }
 
 .header img {

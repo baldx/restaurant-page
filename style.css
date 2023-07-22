@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --lighter-color: #F9FBE7;
+    --light-color: #F0EDD4;
+    --beige: #ECCDB4;
+    --peach: #FEA1A1;
+}
+
+body {
+    margin: 0px;
+    font-size: 26px;
+}
+
+.header {
+    background-color: rgb(247, 104, 104);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 0.5em;
+}
+
+ul {
+    grid-area: 1 / 2 / 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    border: 1px solid black;
+    margin: 0.3em;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}

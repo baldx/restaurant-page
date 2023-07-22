@@ -1,1 +1,1 @@
-console.log("shit");
+document.querySelector("#menu");

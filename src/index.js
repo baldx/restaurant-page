@@ -1,1 +1,1 @@
-alert("beees");
+console.log("shit")

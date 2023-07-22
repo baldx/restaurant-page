@@ -15,6 +15,9 @@ body {
     background-color: var(--lighter-color);
 }
 
+
+/*HEADER*/
+
 .header {
     background-color: var(--light-color);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -23,6 +26,7 @@ body {
     justify-items: center;
     align-items: center;
     padding: 0.5em;
+    height: 15vh;
 }
 
 ul {
@@ -32,9 +36,13 @@ ul {
     list-style-type: none;
 }
 
-a {
+.header > a {
     color: black;
     text-decoration: none;
+}
+
+a {
+    color: black;
 }
 
 .header button {
@@ -57,7 +65,58 @@ button:active {
     transition: 100ms;
 }
 
+.home {
+    background-color: var(--peach);
+}
+
 .header img {
     height: 100px;
     width: 100px;
+}
+
+/*HOME MAIN*/
+
+.home-main {
+    min-height: 85vh;
+    display: grid;
+    justify-content: center;
+}
+
+.home-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 85vh;
+    width: 35vw;
+    margin-top: 1em;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    padding: 1em;
+}
+
+.top img {
+    width: 30vw;
+}
+
+.top {
+    height: 10vh;
+}
+
+.info {
+    font-size: 0.7em;
+    line-height: 25px;
+    overflow: auto;
+}
+
+.hours {
+    text-align: center;
+    overflow: auto;
+}
+
+/*footer */ 
+
+footer {
+    background-color: var(--light-color);
+    text-align: center;
+    margin-top: 1em;
+    padding: 0.4em;
 }

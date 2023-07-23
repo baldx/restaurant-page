@@ -1,1 +1,1 @@
-document.querySelector("#menu");
+(()=>{const e=document.querySelector(".menu");document.querySelector(".home"),document.querySelector(".contact"),e.addEventListener("click",(()=>{alert("test")}))})();

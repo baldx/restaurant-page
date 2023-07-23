@@ -1,1 +1,1 @@
-(()=>{const e=document.querySelector(".menu");document.querySelector(".home"),document.querySelector(".contact"),e.addEventListener("click",(()=>{alert("test")}))})();
+(()=>{document.querySelector(".menu"),document.querySelector(".home"),document.querySelector(".contact");const e=document.querySelector(".content"),t=document.createElement("div");document.createElement("img"),t.classList.add("header"),e.append(t)})();

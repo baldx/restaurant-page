@@ -15,7 +15,8 @@ const ul = document.createElement("ul");
 header.appendChild(ul)
 const liHome = document.createElement("li");
 const liMenu = document.createElement("li");
-const liContact = document.createElement("li");
+const liContact = doc
+ument.createElement("li");
 ul.appendChild(liHome)
 ul.appendChild(liMenu)
 ul.appendChild(liContact)
@@ -38,11 +39,11 @@ btnContact.classList.add("contact")
 
 
 const main = document.createElement("div");
-main.classList.add("home-main");
+main.classList.add("main");
 content.appendChild(main)
 
 const container = document.createElement("div");
-container.classList.add("home-container");
+container.classList.add("container");
 main.appendChild(container)
 
 const top = document.createElement("div");

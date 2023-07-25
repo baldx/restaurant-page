@@ -1,3 +1,5 @@
-import pageInit from "./modules/PageInit";
+// import pageInit from "./modules/PageInit";
+// import menu from "./modules/menu";
 
-pageInit()
+// pageInit()
+// menu();

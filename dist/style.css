@@ -83,7 +83,7 @@ button:active {
     justify-content: center;
 }
 
-.container {
+.container, .container-menu {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 85vh;
     width: 35vw;
@@ -120,4 +120,22 @@ footer {
     text-align: center;
     margin-top: 1em;
     padding: 0.4em;
+}
+
+.container-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.activeBtn {
+    background-color: var(--peach);
 }

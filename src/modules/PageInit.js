@@ -1,3 +1,5 @@
+import menu from "./menu";
+
 function pageInit() {
     
 const content = document.querySelector(".content")
@@ -15,8 +17,7 @@ const ul = document.createElement("ul");
 header.appendChild(ul)
 const liHome = document.createElement("li");
 const liMenu = document.createElement("li");
-const liContact = doc
-ument.createElement("li");
+const liContact = document.createElement("li");
 ul.appendChild(liHome)
 ul.appendChild(liMenu)
 ul.appendChild(liContact)
@@ -28,6 +29,8 @@ const btnContact = document.createElement("button");
 liHome.appendChild(btnHome);
 btnHome.textContent = "Home"
 btnHome.classList.add("home")
+btnHome.classList.add("activeBtn")
+
 
 liMenu.appendChild(btnMenu);
 btnMenu.textContent = "Menu"
@@ -67,7 +70,13 @@ container.appendChild(hours)
 const footer = document.createElement("footer")
 footer.innerHTML = `Made by <a href="#">baldx</a>`
 content.appendChild(footer)
-}
 
+const menuBtn = document.querySelector(".menu");
+
+menuBtn.addEventListener("click", () => {
+    menu()
+})
+
+}
 
 export default pageInit;

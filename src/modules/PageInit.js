@@ -95,7 +95,7 @@ function contact() {
      content.append(header)
  
      const img = document.createElement("img");
-     img.setAttribute("src", "/assets/pizza-hut-logo-DBFE2E48AF-seeklogo.com.png")
+     img.setAttribute("src", "/assets/pizza-hut-logo-DBFE2E48AF-seeklogo.com.jpg")
      header.appendChild(img);
  
      const ul = document.createElement("ul");
